@@ -1,10 +1,15 @@
-import React from 'react';
+import React from 'react';    
+// import Welcome from './Welcome'    
 
-function App() {
-  return (
-    <div className="App">
-    </div>
-  );
-}
+import Fileupload from './upload'    
 
-export default App;
+function App() {    
+
+  return (    
+    <div className="App">    
+      {/* <Welcome></Welcome>     */}
+      <Fileupload></Fileupload>    
+    </div>    
+  );    
+}    
+export default App;   
