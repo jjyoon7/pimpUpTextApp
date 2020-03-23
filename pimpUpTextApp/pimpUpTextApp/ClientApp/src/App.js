@@ -1,10 +1,18 @@
-import React from 'react';
-import { Route } from 'react-router';
-import { FetchData } from './components/FetchData';
+import React from 'react'
+import { Route } from 'react-router-dom'
+import Header from "./pages/Header"
+import Main from "./pages/Main"
+
 
 export default function App() {
     return (
-        <Route path='/' component={FetchData} />
+        <div className="root-grid">
+            <Header/>
+            <Route exact path="/">
+              <Main/>
+            </Route>
+            {/* <Route path='/' component={Main}/> */}
+        </div>
     )
 }
 
