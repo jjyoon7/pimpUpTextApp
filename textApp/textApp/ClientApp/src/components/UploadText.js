@@ -28,9 +28,9 @@ export default function UploadText() {
 
     return (
         <div className="file-upload-display">
-            <form className="file-upload-display-form" method="post" encType="multipart/form-data" asp-controller="File" asp-action="Index">
+            <form className="file-upload-display-form" method="post" encType="multipart/form-data" asp-controller="Home" asp-action="Index">
                 <label className="file-upload-display-label btn-file-upload-display-label btn">
-                    <input type="file" name="files" multiple onChange={onChangeHandler} />
+                    <input asp-controller="File" type="file" name="files" multiple onChange={onChangeHandler} />
                     <span className="file-upload-display-btn-text">{hasSelectedFile ? fileName : "Select a file"}</span>
                 </label>
                 <input className="file-upload-display-upload btn-file-upload-display-upload btn" type="submit" value="Upload" onClick={onClickHandler} />
