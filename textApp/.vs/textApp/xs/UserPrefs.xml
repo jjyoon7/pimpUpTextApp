@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{8A6189DC-03B7-47C1-B90D-C9BD1530901C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="textApp/ClientApp/src/pages/Main.js">
+    <Files>
+      <File FileName="textApp/ClientApp/src/index.js" Line="18" Column="1" />
+      <File FileName="textApp/ClientApp/src/App.js" Line="17" Column="1" />
+      <File FileName="textApp/ClientApp/public/index.html" Line="8" Column="1" />
+      <File FileName="textApp/ClientApp/src/style.css" Line="176" Column="1" />
+      <File FileName="textApp/ClientApp/src/components/FetchData.js" Line="28" Column="1" />
+      <File FileName="textApp/ClientApp/src/components/DisplayText.js" Line="65" Column="1" />
+      <File FileName="textApp/ClientApp/src/components/Intro.js" Line="15" Column="2" />
+      <File FileName="textApp/ClientApp/src/components/UploadText.js" Line="40" Column="2" />
+      <File FileName="textApp/ClientApp/src/components/UserWordsSubmit.js" Line="41" Column="2" />
+      <File FileName="textApp/ClientApp/src/utils/wordFrequency.js" Line="20" Column="2" />
+      <File FileName="textApp/ClientApp/src/utils/alterText.js" Line="9" Column="2" />
+      <File FileName="textApp/ClientApp/src/pages/Header.js" Line="16" Column="2" />
+      <File FileName="textApp/ClientApp/src/pages/Main.js" Line="14" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="textApp" expanded="True">
+            <Node name="textApp" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="ClientApp" expanded="True">
+                <Node name="public" expanded="True" />
+                <Node name="src" expanded="True">
+                  <Node name="components" expanded="True" />
+                  <Node name="pages" expanded="True">
+                    <Node name="Main.js" selected="True" />
+                  </Node>
+                  <Node name="utils" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.textApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
