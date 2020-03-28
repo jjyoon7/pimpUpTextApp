@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{8A6189DC-03B7-47C1-B90D-C9BD1530901C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="textApp/ClientApp/src/pages/Main.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="textApp/Models/File.cs">
     <Files>
       <File FileName="textApp/ClientApp/src/index.js" Line="18" Column="1" />
       <File FileName="textApp/ClientApp/src/App.js" Line="17" Column="1" />
@@ -14,6 +14,9 @@
       <File FileName="textApp/ClientApp/src/utils/alterText.js" Line="9" Column="2" />
       <File FileName="textApp/ClientApp/src/pages/Header.js" Line="16" Column="2" />
       <File FileName="textApp/ClientApp/src/pages/Main.js" Line="14" Column="2" />
+      <File FileName="textApp/Startup.cs" Line="23" Column="1" />
+      <File FileName="textApp/Models/FileDBContext.cs" Line="11" Column="22" />
+      <File FileName="textApp/Models/File.cs" Line="18" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,17 +26,10 @@
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
-              <Node name="ClientApp" expanded="True">
-                <Node name="public" expanded="True" />
-                <Node name="src" expanded="True">
-                  <Node name="components" expanded="True" />
-                  <Node name="pages" expanded="True">
-                    <Node name="Main.js" selected="True" />
-                  </Node>
-                  <Node name="utils" expanded="True" />
-                </Node>
-              </Node>
               <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="File.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
